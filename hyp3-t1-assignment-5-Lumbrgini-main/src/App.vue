@@ -36,6 +36,7 @@ async function gnrPersonPhoto() {
 async function generatePerson() {
   await gnrPersonName();
   await gnrPersonPhoto();
+  console.log(imgSrc.value);
 }
 </script>
 
